@@ -1,0 +1,182 @@
+plugins {
+    id 'java'
+    id 'application'
+}
+
+group = 'com.bunker.survival'
+version = '3.0.2'
+
+java {
+    sourceCompatibility = JavaVersion.VERSION_17
+    targetCompatibility = JavaVersion.VERSION_17
+}
+
+application {
+    mainClass = 'com.bunker.survival.platforma.PlatformaApp'
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'com.google.code.gson:gson:2.11.0'
+    testImplementation 'org.junit.jupiter:junit-jupiter:5.10.3'
+}
+
+tasks.withType(Test).configureEach {
+    useJUnitPlatform()
+}
+
+tasks.withType(JavaCompile).configureEach {
+    options.encoding = 'UTF-8'
+    options.release = 17
+    options.compilerArgs += ['-parameters']
+}
+
+jar {
+    archiveBaseName.set('platforma151')
+    duplicatesStrategy = DuplicatesStrategy.EXCLUDE
+    dependsOn classes
+    from {
+        configurations.runtimeClasspath.collect { it.isDirectory() ? it : zipTree(it) }
+    }
+    manifest {
+        attributes 'Main-Class': 'com.bunker.survival.platforma.PlatformaApp'
+    }
+    doLast {
+        copy {
+            from archiveFile
+            into layout.buildDirectory.dir('libs')
+            rename { 'platforma151.jar' }
+        }
+    }
+}
+
+tasks.register('writeVersionTxt') {
+    group = 'build'
+    description = 'Write build/libs/version.txt from project version'
+    def outFile = layout.buildDirectory.file('libs/version.txt')
+    outputs.file(outFile)
+    doLast {
+        def ver = version.toString()
+        def out = outFile.get().asFile
+        out.parentFile.mkdirs()
+        out.setText(ver + '\n', 'UTF-8')
+        logger.lifecycle("Wrote ${out} → ${ver}")
+    }
+}
+
+tasks.register('packageApp') {
+    group = 'build'
+    description = 'Package Windows app-image (dist/Platforma151) via jpackage'
+    dependsOn jar, 'writeVersionTxt'
+
+    def destDir = layout.projectDirectory.dir('dist')
+    def appImageDir = destDir.dir('Platforma151')
+    def exeFile = appImageDir.file('Platforma151.exe')
+    def jpackageInput = layout.buildDirectory.dir('jpackage-input')
+
+    inputs.files(
+            layout.buildDirectory.file('libs/platforma151.jar'),
+            layout.buildDirectory.file('libs/version.txt')
+    )
+    outputs.file(exeFile)
+
+    doLast {
+        def javaHome = System.getenv('JAVA_HOME')
+        def localJdk = file('.tmp-jdk21/jdk-21.0.12+8')
+        def siblingJdk = file('../untitled/.tmp-jdk21/jdk-21.0.12+8')
+        if (localJdk.directory) {
+            javaHome = localJdk.absolutePath
+        } else if (siblingJdk.directory) {
+            javaHome = siblingJdk.absolutePath
+        }
+        def jpackage = javaHome != null
+                ? file("$javaHome/bin/jpackage.exe")
+                : null
+        if (jpackage == null || !jpackage.file) {
+            jpackage = file("${System.getProperty('java.home')}/bin/jpackage.exe")
+        }
+        if (!jpackage.file) {
+            throw new GradleException(
+                    'jpackage not found. Set JAVA_HOME to a full JDK 17+ (with bin/jpackage.exe).')
+        }
+
+        def inputDir = jpackageInput.get().asFile
+        delete inputDir
+        inputDir.mkdirs()
+        copy {
+            from layout.buildDirectory.file('libs/platforma151.jar')
+            into inputDir
+        }
+
+        def dest = destDir.asFile
+        dest.mkdirs()
+        def existing = appImageDir.asFile
+        if (existing.exists()) {
+            delete existing
+        }
+
+        def iconFile = rootProject.file('assets/icons/platforma151.ico')
+        // Fat JAR fools jdeps: without an explicit module list the runtime is
+        // only java.base + whatever --add-modules lists, and Swing never starts.
+        def cmd = [
+                jpackage.absolutePath,
+                '--type', 'app-image',
+                '--name', 'Platforma151',
+                '--app-version', version.toString(),
+                '--description', 'Platforma151 cloud saves',
+                '--vendor', 'Platforma151',
+                '--input', inputDir.absolutePath,
+                '--main-jar', 'platforma151.jar',
+                '--main-class', 'com.bunker.survival.platforma.PlatformaApp',
+                '--dest', dest.absolutePath,
+                '--java-options', '-Dfile.encoding=UTF-8',
+                '--add-modules',
+                'java.desktop,java.datatransfer,java.net.http,java.logging,java.xml,' +
+                        'java.management,java.naming,java.prefs,jdk.crypto.ec,' +
+                        'jdk.httpserver,jdk.charsets,jdk.localedata,jdk.unsupported',
+                '--jlink-options',
+                '--strip-debug --no-man-pages --no-header-files'
+        ]
+        if (iconFile.file) {
+            cmd.addAll(['--icon', iconFile.absolutePath])
+        }
+        exec {
+            commandLine cmd
+        }
+
+        if (!exeFile.asFile.file) {
+            throw new GradleException("jpackage finished but EXE missing: ${exeFile.asFile}")
+        }
+        def releaseFile = new File(appImageDir.asFile, 'runtime/release')
+        def releaseText = releaseFile.isFile() ? releaseFile.getText('UTF-8') : ''
+        if (!releaseText.contains('java.desktop')) {
+            throw new GradleException(
+                    "jpackage runtime is missing java.desktop (Swing). release: ${releaseText.trim()}")
+        }
+        copy {
+            from layout.buildDirectory.file('libs/version.txt')
+            into appImageDir.dir('app')
+        }
+        copy {
+            from layout.buildDirectory.file('libs/version.txt')
+            into appImageDir
+        }
+        copy {
+            from rootProject.file('assets/icons/platforma151.ico')
+            from rootProject.file('assets/icons/platforma151_32.png')
+            into appImageDir.dir('assets/icons')
+        }
+        logger.lifecycle("Packaged Platforma151: ${exeFile.asFile.absolutePath}")
+    }
+}
+
+tasks.register('packageInstaller', Exec) {
+    group = 'build'
+    description = 'Build Platforma151-Setup.exe'
+    dependsOn 'packageApp'
+    workingDir = rootProject.projectDir
+    commandLine 'python', 'tools/build_installer.py', '--preset', 'platforma'
+}

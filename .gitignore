@@ -1,0 +1,32 @@
+### IntelliJ IDEA ###
+out/
+.idea/
+
+### Eclipse ###
+.classpath
+.project
+.settings
+bin/
+
+### VS Code ###
+.vscode/
+
+### Mac OS ###
+.DS_Store
+
+### Gradle ###
+.gradle/
+build/
+**/build/
+.tmp-jdk21/
+.tmp-jdk21.zip
+.tmp-gradle/
+.tmp-gradle.zip
+
+### App local ###
+/dist/
+*.log
+__pycache__/
+*.pyc
+/deploy.py
+/tools/

@@ -1,0 +1,2552 @@
+[
+  {
+    "key": "dark_souls_2",
+    "name": "Dark Souls II",
+    "shortcut": "Dark Souls II.lnk",
+    "paths": [
+      "%APPDATA%\\DarkSoulsII"
+    ],
+    "extensions": [
+      ".sl2"
+    ]
+  },
+  {
+    "key": "dark_souls_3",
+    "name": "Dark Souls III",
+    "shortcut": "Dark Souls III.lnk",
+    "paths": [
+      "%APPDATA%\\DarkSoulsIII"
+    ],
+    "extensions": [
+      ".sl2"
+    ]
+  },
+  {
+    "key": "elden_ring",
+    "name": "Elden Ring",
+    "shortcut": "Eldenring.lnk",
+    "paths": [
+      "%APPDATA%\\EldenRing"
+    ],
+    "extensions": [
+      ".sl2"
+    ]
+  },
+  {
+    "key": "fallout_4",
+    "name": "Fallout 4",
+    "shortcut": "Fallout4.lnk",
+    "paths": [
+      "%USERPROFILE%\\Documents\\My Games\\Fallout4\\Saves",
+      "%DOCUMENTS%\\My Games\\Fallout4\\Saves"
+    ],
+    "extensions": [
+      ".fos",
+      ".fos.gz"
+    ]
+  },
+  {
+    "key": "ksp",
+    "name": "Kerbal Space Program",
+    "shortcut": "Kerbal space program.lnk",
+    "paths": [
+      "%INSTALL%\\saves",
+      "%USERPROFILE%\\AppData\\LocalLow\\Squad\\Kerbal Space Program\\saves"
+    ],
+    "extensions": [
+      ".sfs",
+      ".loadmeta"
+    ]
+  },
+  {
+    "key": "gta_v",
+    "name": "Grand Theft Auto V",
+    "shortcut": "Grand Theft Auto V.lnk",
+    "paths": [
+      "%USERPROFILE%\\Documents\\Rockstar Games\\GTA V\\Profiles",
+      "%APPDATA%\\Goldberg SocialClub Emu Saves\\GTA V"
+    ],
+    "include": [
+      "**/*"
+    ]
+  },
+  {
+    "key": "re3",
+    "name": "Resident Evil 3",
+    "shortcut": "re3.lnk",
+    "paths": [
+      "%LOCALAPPDATA%\\CAPCOM\\RESIDENT EVIL 3",
+      "%APPDATA%\\Goldberg SteamEmu Saves\\952060\\remote"
+    ],
+    "extensions": [
+      ".sav",
+      ".dat"
+    ]
+  },
+  {
+    "key": "lies_of_p",
+    "name": "Lies of P",
+    "shortcut": "Lies of P.lnk",
+    "paths": [
+      "%INSTALL%\\LiesofP\\Saved\\SaveGames",
+      "%LOCALAPPDATA%\\LiesofP\\Saved\\SaveGames",
+      "%APPDATA%\\Goldberg SteamEmu Saves\\1627720\\remote"
+    ],
+    "extensions": [
+      ".sav"
+    ]
+  },
+  {
+    "key": "little_nightmares",
+    "name": "Little Nightmares",
+    "shortcut": "Little Nightmares.lnk",
+    "paths": [
+      "%LOCALAPPDATA%\\Atlas\\Saved\\SaveGames",
+      "%APPDATA%\\Goldberg SteamEmu Saves\\424840\\remote"
+    ],
+    "extensions": [
+      ".sav"
+    ]
+  },
+  {
+    "key": "little_nightmares_2",
+    "name": "Little Nightmares II",
+    "shortcut": "Little Nightmares II.lnk",
+    "paths": [
+      "%LOCALAPPDATA%\\Helios\\Saved\\SaveGames",
+      "%APPDATA%\\Goldberg SteamEmu Saves\\1097630\\remote"
+    ],
+    "extensions": [
+      ".sav"
+    ]
+  },
+  {
+    "key": "mfr_launcher",
+    "name": "M[FR] Launcher",
+    "shortcut": "M[FR] Launcher.lnk",
+    "paths": [
+      "%USERPROFILE%\\Documents\\My Games\\OpenMW\\saves",
+      "%DOCUMENTS%\\My Games\\OpenMW\\saves"
+    ],
+    "extensions": [
+      ".omwsave",
+      ".ess"
+    ]
+  },
+  {
+    "key": "witcher_3",
+    "name": "The Witcher 3 - GOTY",
+    "shortcut": "The Witcher 3 - GOTY.lnk",
+    "paths": [
+      "%USERPROFILE%\\Documents\\The Witcher 3\\gamesaves",
+      "%DOCUMENTS%\\The Witcher 3\\gamesaves"
+    ],
+    "extensions": [
+      ".sav"
+    ]
+  },
+  {
+    "key": "aoe_de",
+    "name": "Age of Empires Definitive Edition",
+    "shortcut": "AoEDE.lnk",
+    "paths": [
+      "%USERPROFILE%\\Games\\Age of Empires DE\\Users\\*\\Saved Games"
+    ],
+    "extensions": [
+      ".aoesav",
+      ".aoe2spgame",
+      ".sav"
+    ],
+    "include": [
+      "**/*"
+    ]
+  },
+  {
+    "key": "south_park_stick_of_truth",
+    "name": "South Park - The Stick of Truth",
+    "shortcut": "South Park - The Stick of Truth.lnk",
+    "paths": [
+      "%USERPROFILE%\\Documents\\My Games\\South Park - The Stick of Truth\\save",
+      "%DOCUMENTS%\\My Games\\South Park - The Stick of Truth\\save"
+    ],
+    "include": [
+      "**/*"
+    ]
+  },
+  {
+    "key": "project_zomboid",
+    "name": "Project Zomboid",
+    "shortcut": "Project Zomboid.lnk",
+    "paths": [
+      "%USERPROFILE%\\Zomboid\\Saves",
+      "%SAVEDGAMES%\\Zomboid\\Saves"
+    ],
+    "include": [
+      "**/*"
+    ]
+  },
+  {
+    "key": "skyrim_se",
+    "name": "The Elder Scrolls V: Skyrim Special Edition",
+    "shortcut": "Skyrim SE.lnk",
+    "paths": [
+      "%USERPROFILE%\\Documents\\My Games\\Skyrim Special Edition\\Saves",
+      "%DOCUMENTS%\\My Games\\Skyrim Special Edition\\Saves"
+    ],
+    "extensions": [
+      ".ess",
+      ".skse"
+    ]
+  },
+  {
+    "key": "skyrim",
+    "name": "The Elder Scrolls V: Skyrim",
+    "shortcut": "Skyrim.lnk",
+    "paths": [
+      "%USERPROFILE%\\Documents\\My Games\\Skyrim\\Saves"
+    ],
+    "extensions": [
+      ".ess",
+      ".skse"
+    ]
+  },
+  {
+    "key": "oblivion",
+    "name": "The Elder Scrolls IV: Oblivion",
+    "shortcut": "Oblivion.lnk",
+    "paths": [
+      "%USERPROFILE%\\Documents\\My Games\\Oblivion\\Saves"
+    ],
+    "extensions": [
+      ".ess"
+    ]
+  },
+  {
+    "key": "morrowind",
+    "name": "The Elder Scrolls III: Morrowind",
+    "shortcut": "Morrowind.lnk",
+    "paths": [
+      "%USERPROFILE%\\Documents\\My Games\\OpenMW\\saves",
+      "%DOCUMENTS%\\My Games\\Morrowind\\Saves"
+    ],
+    "exclude_dirs": [
+      "debug",
+      "logs",
+      "log",
+      "cache",
+      "temp",
+      "tmp",
+      "crashdumps"
+    ],
+    "exclude": [
+      "**/*.log",
+      "**/*.tmp",
+      "**/*.dmp",
+      "**/*.pdb",
+      "**/*.bak"
+    ]
+  },
+  {
+    "key": "fallout_nv",
+    "name": "Fallout: New Vegas",
+    "shortcut": "Fallout New Vegas.lnk",
+    "paths": [
+      "%USERPROFILE%\\Documents\\My Games\\FalloutNV\\Saves"
+    ],
+    "extensions": [
+      ".fos",
+      ".fos.gz"
+    ]
+  },
+  {
+    "key": "fallout_3",
+    "name": "Fallout 3",
+    "shortcut": "Fallout 3.lnk",
+    "paths": [
+      "%USERPROFILE%\\Documents\\My Games\\Fallout3\\Saves"
+    ],
+    "extensions": [
+      ".fos",
+      ".fos.gz"
+    ]
+  },
+  {
+    "key": "fallout_76",
+    "name": "Fallout 76",
+    "shortcut": "Fallout 76.lnk",
+    "paths": [
+      "%USERPROFILE%\\Documents\\My Games\\Fallout 76\\Saves"
+    ],
+    "extensions": [
+      ".fos",
+      ".fos.gz"
+    ]
+  },
+  {
+    "key": "cyberpunk_2077",
+    "name": "Cyberpunk 2077",
+    "shortcut": "Cyberpunk 2077.lnk",
+    "paths": [
+      "%USERPROFILE%\\Saved Games\\CD Projekt Red\\Cyberpunk 2077",
+      "%SAVEDGAMES%\\CD Projekt Red\\Cyberpunk 2077"
+    ],
+    "include": [
+      "**/*"
+    ]
+  },
+  {
+    "key": "witcher_2",
+    "name": "The Witcher 2",
+    "shortcut": "The Witcher 2.lnk",
+    "paths": [
+      "%USERPROFILE%\\Documents\\Witcher 2\\gamesaves"
+    ],
+    "extensions": [
+      ".sav"
+    ]
+  },
+  {
+    "key": "witcher_1",
+    "name": "The Witcher Enhanced Edition",
+    "shortcut": "The Witcher.lnk",
+    "paths": [
+      "%USERPROFILE%\\Documents\\The Witcher\\saves"
+    ],
+    "exclude_dirs": [
+      "debug",
+      "logs",
+      "log",
+      "cache",
+      "temp",
+      "tmp",
+      "crashdumps"
+    ],
+    "exclude": [
+      "**/*.log",
+      "**/*.tmp",
+      "**/*.dmp",
+      "**/*.pdb",
+      "**/*.bak"
+    ]
+  },
+  {
+    "key": "rdr2",
+    "name": "Red Dead Redemption 2",
+    "shortcut": "Red Dead Redemption 2.lnk",
+    "paths": [
+      "%USERPROFILE%\\Documents\\Rockstar Games\\Red Dead Redemption 2\\Profiles"
+    ],
+    "include": [
+      "**/*"
+    ]
+  },
+  {
+    "key": "gta_iv",
+    "name": "Grand Theft Auto IV",
+    "shortcut": "GTA IV.lnk",
+    "paths": [
+      "%LOCALAPPDATA%\\Rockstar Games\\GTA IV\\savegames"
+    ],
+    "extensions": [
+      ".sav"
+    ]
+  },
+  {
+    "key": "gta_sa",
+    "name": "Grand Theft Auto: San Andreas",
+    "shortcut": "GTA San Andreas.lnk",
+    "paths": [
+      "%USERPROFILE%\\Documents\\GTA San Andreas User Files"
+    ],
+    "exclude_dirs": [
+      "debug",
+      "logs",
+      "log",
+      "cache",
+      "temp",
+      "tmp",
+      "crashdumps"
+    ],
+    "exclude": [
+      "**/*.log",
+      "**/*.tmp",
+      "**/*.dmp",
+      "**/*.pdb",
+      "**/*.bak"
+    ]
+  },
+  {
+    "key": "minecraft",
+    "name": "Minecraft",
+    "shortcut": "Minecraft.lnk",
+    "paths": [
+      "%APPDATA%\\.minecraft\\saves"
+    ],
+    "include": [
+      "**/level.dat",
+      "**/session.lock",
+      "**/playerdata/*",
+      "**/stats/*",
+      "**/advancements/*",
+      "**/data/*"
+    ]
+  },
+  {
+    "key": "terraria",
+    "name": "Terraria",
+    "shortcut": "Terraria.lnk",
+    "paths": [
+      "%USERPROFILE%\\Documents\\My Games\\Terraria\\Players",
+      "%DOCUMENTS%\\My Games\\Terraria\\Players"
+    ],
+    "extensions": [
+      ".plr",
+      ".wld"
+    ]
+  },
+  {
+    "key": "stardew_valley",
+    "name": "Stardew Valley",
+    "shortcut": "Stardew Valley.lnk",
+    "paths": [
+      "%APPDATA%\\StardewValley\\Saves"
+    ],
+    "extensions": [
+      ".xml",
+      ".bak"
+    ]
+  },
+  {
+    "key": "dont_starve",
+    "name": "Don't Starve",
+    "shortcut": "Dont Starve.lnk",
+    "paths": [
+      "%USERPROFILE%\\Documents\\Klei\\DoNotStarve\\save"
+    ],
+    "exclude_dirs": [
+      "debug",
+      "logs",
+      "log",
+      "cache",
+      "temp",
+      "tmp",
+      "crashdumps"
+    ],
+    "exclude": [
+      "**/*.log",
+      "**/*.tmp",
+      "**/*.dmp",
+      "**/*.pdb",
+      "**/*.bak"
+    ]
+  },
+  {
+    "key": "dont_starve_together",
+    "name": "Don't Starve Together",
+    "shortcut": "Dont Starve Together.lnk",
+    "paths": [
+      "%USERPROFILE%\\Documents\\Klei\\DoNotStarveTogether"
+    ],
+    "exclude_dirs": [
+      "debug",
+      "logs",
+      "log",
+      "cache",
+      "temp",
+      "tmp",
+      "crashdumps"
+    ],
+    "exclude": [
+      "**/*.log",
+      "**/*.tmp",
+      "**/*.dmp",
+      "**/*.pdb",
+      "**/*.bak"
+    ]
+  },
+  {
+    "key": "hollow_knight",
+    "name": "Hollow Knight",
+    "shortcut": "Hollow Knight.lnk",
+    "paths": [
+      "%APPDATA%\\..\\LocalLow\\Team Cherry\\Hollow Knight"
+    ],
+    "extensions": [
+      ".dat",
+      ".json"
+    ]
+  },
+  {
+    "key": "celeste",
+    "name": "Celeste",
+    "shortcut": "Celeste.lnk",
+    "paths": [
+      "%LOCALAPPDATA%\\Celeste\\Saves"
+    ],
+    "extensions": [
+      ".celeste"
+    ]
+  },
+  {
+    "key": "hades",
+    "name": "Hades",
+    "shortcut": "Hades.lnk",
+    "paths": [
+      "%USERPROFILE%\\Documents\\Saved Games\\Hades\\ProfileSaveSlot"
+    ],
+    "include": [
+      "**/*"
+    ]
+  },
+  {
+    "key": "hades_2",
+    "name": "Hades II",
+    "shortcut": "Hades II.lnk",
+    "paths": [
+      "%USERPROFILE%\\Documents\\Saved Games\\Hades2"
+    ],
+    "include": [
+      "**/*"
+    ]
+  },
+  {
+    "key": "dead_cells",
+    "name": "Dead Cells",
+    "shortcut": "Dead Cells.lnk",
+    "paths": [
+      "%LOCALAPPDATA%\\DeadCells"
+    ],
+    "exclude_dirs": [
+      "debug",
+      "logs",
+      "log",
+      "cache",
+      "temp",
+      "tmp",
+      "crashdumps"
+    ],
+    "exclude": [
+      "**/*.log",
+      "**/*.tmp",
+      "**/*.dmp",
+      "**/*.pdb",
+      "**/*.bak"
+    ]
+  },
+  {
+    "key": "slay_the_spire",
+    "name": "Slay the Spire",
+    "shortcut": "Slay the Spire.lnk",
+    "paths": [
+      "%USERPROFILE%\\AppData\\LocalLow\\Mega Crit Games\\Slay the Spire"
+    ],
+    "extensions": [
+      ".autosave",
+      ".save"
+    ]
+  },
+  {
+    "key": "balatro",
+    "name": "Balatro",
+    "shortcut": "Balatro.lnk",
+    "paths": [
+      "%APPDATA%\\Balatro"
+    ],
+    "extensions": [
+      ".jkr"
+    ]
+  },
+  {
+    "key": "factorio",
+    "name": "Factorio",
+    "shortcut": "Factorio.lnk",
+    "paths": [
+      "%APPDATA%\\Factorio\\saves"
+    ],
+    "extensions": [
+      ".zip"
+    ]
+  },
+  {
+    "key": "rimworld",
+    "name": "RimWorld",
+    "shortcut": "RimWorld.lnk",
+    "paths": [
+      "%USERPROFILE%\\AppData\\LocalLow\\Ludeon Studios\\RimWorld by Ludeon Studios\\Saves"
+    ],
+    "extensions": [
+      ".rws",
+      ".rwa"
+    ]
+  },
+  {
+    "key": "oxygen_not_included",
+    "name": "Oxygen Not Included",
+    "shortcut": "Oxygen Not Included.lnk",
+    "paths": [
+      "%USERPROFILE%\\Documents\\Klei\\OxygenNotIncluded\\save_files"
+    ],
+    "exclude_dirs": [
+      "debug",
+      "logs",
+      "log",
+      "cache",
+      "temp",
+      "tmp",
+      "crashdumps"
+    ],
+    "exclude": [
+      "**/*.log",
+      "**/*.tmp",
+      "**/*.dmp",
+      "**/*.pdb",
+      "**/*.bak"
+    ]
+  },
+  {
+    "key": "cities_skylines",
+    "name": "Cities: Skylines",
+    "shortcut": "Cities Skylines.lnk",
+    "paths": [
+      "%LOCALAPPDATA%\\Colossal Order\\Cities_Skylines\\Saves"
+    ],
+    "extensions": [
+      ".crp",
+      ".cslmap"
+    ]
+  },
+  {
+    "key": "cities_skylines_2",
+    "name": "Cities: Skylines II",
+    "shortcut": "Cities Skylines II.lnk",
+    "paths": [
+      "%LOCALAPPDATA%\\Colossal Order\\Cities Skylines II\\Saves"
+    ],
+    "extensions": [
+      ".cok",
+      ".cok.cid"
+    ]
+  },
+  {
+    "key": "civilization_6",
+    "name": "Sid Meier's Civilization VI",
+    "shortcut": "Civilization VI.lnk",
+    "paths": [
+      "%USERPROFILE%\\Documents\\My Games\\Sid Meier's Civilization VI\\Saves"
+    ],
+    "extensions": [
+      ".Civ6Save"
+    ]
+  },
+  {
+    "key": "civilization_5",
+    "name": "Sid Meier's Civilization V",
+    "shortcut": "Civilization V.lnk",
+    "paths": [
+      "%USERPROFILE%\\Documents\\My Games\\Sid Meier's Civilization 5\\Saves"
+    ],
+    "extensions": [
+      ".Civ5Save"
+    ]
+  },
+  {
+    "key": "xcom_2",
+    "name": "XCOM 2",
+    "shortcut": "XCOM 2.lnk",
+    "paths": [
+      "%USERPROFILE%\\Documents\\My Games\\XCOM2\\XComGame\\SaveData"
+    ],
+    "include": [
+      "**/*"
+    ]
+  },
+  {
+    "key": "total_war_warhammer_3",
+    "name": "Total War: WARHAMMER III",
+    "shortcut": "Total War WARHAMMER III.lnk",
+    "paths": [
+      "%APPDATA%\\The Creative Assembly\\Warhammer3\\save_games"
+    ],
+    "extensions": [
+      ".save"
+    ]
+  },
+  {
+    "key": "total_war_warhammer_2",
+    "name": "Total War: WARHAMMER II",
+    "shortcut": "Total War WARHAMMER II.lnk",
+    "paths": [
+      "%APPDATA%\\The Creative Assembly\\Warhammer2\\save_games"
+    ],
+    "extensions": [
+      ".save"
+    ]
+  },
+  {
+    "key": "mount_blade_2",
+    "name": "Mount & Blade II: Bannerlord",
+    "shortcut": "Bannerlord.lnk",
+    "paths": [
+      "%USERPROFILE%\\Documents\\Mount and Blade II Bannerlord\\Game Saves"
+    ],
+    "extensions": [
+      ".sav"
+    ]
+  },
+  {
+    "key": "eu4",
+    "name": "Europa Universalis IV",
+    "shortcut": "Europa Universalis IV.lnk",
+    "paths": [
+      "%USERPROFILE%\\Documents\\Paradox Interactive\\Europa Universalis IV\\save games"
+    ],
+    "extensions": [
+      ".eu4",
+      ".rme"
+    ]
+  },
+  {
+    "key": "hoi4",
+    "name": "Hearts of Iron IV",
+    "shortcut": "Hearts of Iron IV.lnk",
+    "paths": [
+      "%USERPROFILE%\\Documents\\Paradox Interactive\\Hearts of Iron IV\\save games"
+    ],
+    "extensions": [
+      ".hoi4",
+      ".rme"
+    ]
+  },
+  {
+    "key": "ck3",
+    "name": "Crusader Kings III",
+    "shortcut": "Crusader Kings III.lnk",
+    "paths": [
+      "%USERPROFILE%\\Documents\\Paradox Interactive\\Crusader Kings III\\save games"
+    ],
+    "extensions": [
+      ".ck3",
+      ".rme"
+    ]
+  },
+  {
+    "key": "stellaris",
+    "name": "Stellaris",
+    "shortcut": "Stellaris.lnk",
+    "paths": [
+      "%USERPROFILE%\\Documents\\Paradox Interactive\\Stellaris\\save games"
+    ],
+    "extensions": [
+      ".sav",
+      ".rme"
+    ]
+  },
+  {
+    "key": "vic3",
+    "name": "Victoria 3",
+    "shortcut": "Victoria 3.lnk",
+    "paths": [
+      "%USERPROFILE%\\Documents\\Paradox Interactive\\Victoria 3\\save games"
+    ],
+    "extensions": [
+      ".v3",
+      ".rme"
+    ]
+  },
+  {
+    "key": "doom_2016",
+    "name": "DOOM (2016)",
+    "shortcut": "DOOM.lnk",
+    "paths": [
+      "%USERPROFILE%\\Saved Games\\id Software\\DOOM\\base\\savegame"
+    ],
+    "include": [
+      "**/*"
+    ]
+  },
+  {
+    "key": "doom_eternal",
+    "name": "DOOM Eternal",
+    "shortcut": "DOOM Eternal.lnk",
+    "paths": [
+      "%USERPROFILE%\\Saved Games\\id Software\\DOOMEternal\\base\\savegame.user"
+    ],
+    "exclude_dirs": [
+      "debug",
+      "logs",
+      "log",
+      "cache",
+      "temp",
+      "tmp",
+      "crashdumps"
+    ],
+    "exclude": [
+      "**/*.log",
+      "**/*.tmp",
+      "**/*.dmp",
+      "**/*.pdb",
+      "**/*.bak"
+    ]
+  },
+  {
+    "key": "bioshock_infinite",
+    "name": "BioShock Infinite",
+    "shortcut": "BioShock Infinite.lnk",
+    "paths": [
+      "%USERPROFILE%\\Documents\\My Games\\BioShock Infinite\\SaveGames"
+    ],
+    "extensions": [
+      ".sav"
+    ]
+  },
+  {
+    "key": "dishonored",
+    "name": "Dishonored",
+    "shortcut": "Dishonored.lnk",
+    "paths": [
+      "%USERPROFILE%\\Saved Games\\Arkane Studios\\Dishonored\\SaveGames"
+    ],
+    "extensions": [
+      ".sav"
+    ]
+  },
+  {
+    "key": "dishonored_2",
+    "name": "Dishonored 2",
+    "shortcut": "Dishonored 2.lnk",
+    "paths": [
+      "%USERPROFILE%\\Saved Games\\Arkane Studios\\dishonored2\\SaveGames"
+    ],
+    "extensions": [
+      ".sav"
+    ]
+  },
+  {
+    "key": "prey_2017",
+    "name": "Prey",
+    "shortcut": "Prey.lnk",
+    "paths": [
+      "%USERPROFILE%\\Saved Games\\Arkane Studios\\Prey\\SaveGames"
+    ],
+    "extensions": [
+      ".sav"
+    ]
+  },
+  {
+    "key": "deathloop",
+    "name": "Deathloop",
+    "shortcut": "Deathloop.lnk",
+    "paths": [
+      "%USERPROFILE%\\Saved Games\\Arkane Studios\\Deathloop\\SaveGames"
+    ],
+    "extensions": [
+      ".sav"
+    ]
+  },
+  {
+    "key": "mass_effect_le",
+    "name": "Mass Effect Legendary Edition",
+    "shortcut": "Mass Effect Legendary Edition.lnk",
+    "paths": [
+      "%USERPROFILE%\\Documents\\BioWare\\Mass Effect Legendary Edition\\Save"
+    ],
+    "exclude_dirs": [
+      "debug",
+      "logs",
+      "log",
+      "cache",
+      "temp",
+      "tmp",
+      "crashdumps"
+    ],
+    "exclude": [
+      "**/*.log",
+      "**/*.tmp",
+      "**/*.dmp",
+      "**/*.pdb",
+      "**/*.bak"
+    ]
+  },
+  {
+    "key": "dragon_age_inquisition",
+    "name": "Dragon Age: Inquisition",
+    "shortcut": "Dragon Age Inquisition.lnk",
+    "paths": [
+      "%USERPROFILE%\\Documents\\BioWare\\Dragon Age Inquisition\\Save"
+    ],
+    "exclude_dirs": [
+      "debug",
+      "logs",
+      "log",
+      "cache",
+      "temp",
+      "tmp",
+      "crashdumps"
+    ],
+    "exclude": [
+      "**/*.log",
+      "**/*.tmp",
+      "**/*.dmp",
+      "**/*.pdb",
+      "**/*.bak"
+    ]
+  },
+  {
+    "key": "bg3",
+    "name": "Baldur's Gate 3",
+    "shortcut": "Baldurs Gate 3.lnk",
+    "paths": [
+      "%LOCALAPPDATA%\\Larian Studios\\Baldur's Gate 3\\PlayerProfiles"
+    ],
+    "extensions": [
+      ".lsv",
+      ".webp"
+    ]
+  },
+  {
+    "key": "dos2",
+    "name": "Divinity: Original Sin 2",
+    "shortcut": "Divinity Original Sin 2.lnk",
+    "paths": [
+      "%USERPROFILE%\\Documents\\Larian Studios\\Divinity Original Sin 2\\PlayerProfiles"
+    ],
+    "extensions": [
+      ".lsv"
+    ]
+  },
+  {
+    "key": "pillars_of_eternity_2",
+    "name": "Pillars of Eternity II",
+    "shortcut": "Pillars of Eternity II.lnk",
+    "paths": [
+      "%USERPROFILE%\\Saved Games\\Pillars of Eternity II"
+    ],
+    "exclude_dirs": [
+      "debug",
+      "logs",
+      "log",
+      "cache",
+      "temp",
+      "tmp",
+      "crashdumps"
+    ],
+    "exclude": [
+      "**/*.log",
+      "**/*.tmp",
+      "**/*.dmp",
+      "**/*.pdb",
+      "**/*.bak"
+    ]
+  },
+  {
+    "key": "pathfinder_wotr",
+    "name": "Pathfinder: Wrath of the Righteous",
+    "shortcut": "Pathfinder WOTR.lnk",
+    "paths": [
+      "%USERPROFILE%\\AppData\\LocalLow\\Owlcat Games\\Pathfinder Wrath Of The Righteous"
+    ],
+    "exclude_dirs": [
+      "debug",
+      "logs",
+      "log",
+      "cache",
+      "temp",
+      "tmp",
+      "crashdumps"
+    ],
+    "exclude": [
+      "**/*.log",
+      "**/*.tmp",
+      "**/*.dmp",
+      "**/*.pdb",
+      "**/*.bak"
+    ]
+  },
+  {
+    "key": "disco_elysium",
+    "name": "Disco Elysium",
+    "shortcut": "Disco Elysium.lnk",
+    "paths": [
+      "%APPDATA%\\..\\LocalLow\\ZAUM Studio\\Disco Elysium"
+    ],
+    "exclude_dirs": [
+      "debug",
+      "logs",
+      "log",
+      "cache",
+      "temp",
+      "tmp",
+      "crashdumps"
+    ],
+    "exclude": [
+      "**/*.log",
+      "**/*.tmp",
+      "**/*.dmp",
+      "**/*.pdb",
+      "**/*.bak"
+    ]
+  },
+  {
+    "key": "outer_wilds",
+    "name": "Outer Wilds",
+    "shortcut": "Outer Wilds.lnk",
+    "paths": [
+      "%APPDATA%\\..\\LocalLow\\Mobius Digital\\Outer Wilds"
+    ],
+    "exclude_dirs": [
+      "debug",
+      "logs",
+      "log",
+      "cache",
+      "temp",
+      "tmp",
+      "crashdumps"
+    ],
+    "exclude": [
+      "**/*.log",
+      "**/*.tmp",
+      "**/*.dmp",
+      "**/*.pdb",
+      "**/*.bak"
+    ]
+  },
+  {
+    "key": "subnautica",
+    "name": "Subnautica",
+    "shortcut": "Subnautica.lnk",
+    "paths": [
+      "%USERPROFILE%\\Appdata\\LocalLow\\Unknown Worlds\\Subnautica\\SNAppData\\SavedGames"
+    ],
+    "exclude_dirs": [
+      "debug",
+      "logs",
+      "log",
+      "cache",
+      "temp",
+      "tmp",
+      "crashdumps"
+    ],
+    "exclude": [
+      "**/*.log",
+      "**/*.tmp",
+      "**/*.dmp",
+      "**/*.pdb",
+      "**/*.bak"
+    ]
+  },
+  {
+    "key": "subnautica_bz",
+    "name": "Subnautica: Below Zero",
+    "shortcut": "Subnautica Below Zero.lnk",
+    "paths": [
+      "%USERPROFILE%\\Appdata\\LocalLow\\Unknown Worlds\\Subnautica Zero\\SNAppData\\SavedGames"
+    ],
+    "exclude_dirs": [
+      "debug",
+      "logs",
+      "log",
+      "cache",
+      "temp",
+      "tmp",
+      "crashdumps"
+    ],
+    "exclude": [
+      "**/*.log",
+      "**/*.tmp",
+      "**/*.dmp",
+      "**/*.pdb",
+      "**/*.bak"
+    ]
+  },
+  {
+    "key": "no_mans_sky",
+    "name": "No Man's Sky",
+    "shortcut": "No Mans Sky.lnk",
+    "paths": [
+      "%APPDATA%\\HelloGames\\NMS"
+    ],
+    "include": [
+      "**/*"
+    ]
+  },
+  {
+    "key": "elite_dangerous",
+    "name": "Elite Dangerous",
+    "shortcut": "Elite Dangerous.lnk",
+    "paths": [
+      "%LOCALAPPDATA%\\Frontier Developments\\Elite Dangerous"
+    ],
+    "exclude_dirs": [
+      "debug",
+      "logs",
+      "log",
+      "cache",
+      "temp",
+      "tmp",
+      "crashdumps"
+    ],
+    "exclude": [
+      "**/*.log",
+      "**/*.tmp",
+      "**/*.dmp",
+      "**/*.pdb",
+      "**/*.bak"
+    ]
+  },
+  {
+    "key": "warframe",
+    "name": "Warframe",
+    "shortcut": "Warframe.lnk",
+    "paths": [
+      "%LOCALAPPDATA%\\Warframe"
+    ],
+    "exclude_dirs": [
+      "debug",
+      "logs",
+      "log",
+      "cache",
+      "temp",
+      "tmp",
+      "crashdumps"
+    ],
+    "exclude": [
+      "**/*.log",
+      "**/*.tmp",
+      "**/*.dmp",
+      "**/*.pdb",
+      "**/*.bak"
+    ]
+  },
+  {
+    "key": "apex_legends",
+    "name": "Apex Legends",
+    "shortcut": "Apex Legends.lnk",
+    "paths": [
+      "%USERPROFILE%\\Saved Games\\Respawn\\Apex"
+    ],
+    "exclude_dirs": [
+      "debug",
+      "logs",
+      "log",
+      "cache",
+      "temp",
+      "tmp",
+      "crashdumps"
+    ],
+    "exclude": [
+      "**/*.log",
+      "**/*.tmp",
+      "**/*.dmp",
+      "**/*.pdb",
+      "**/*.bak"
+    ]
+  },
+  {
+    "key": "valorant",
+    "name": "VALORANT",
+    "shortcut": "VALORANT.lnk",
+    "paths": [
+      "%LOCALAPPDATA%\\VALORANT\\Saved\\Config"
+    ],
+    "exclude_dirs": [
+      "debug",
+      "logs",
+      "log",
+      "cache",
+      "temp",
+      "tmp",
+      "crashdumps"
+    ],
+    "exclude": [
+      "**/*.log",
+      "**/*.tmp",
+      "**/*.dmp",
+      "**/*.pdb",
+      "**/*.bak"
+    ]
+  },
+  {
+    "key": "wow",
+    "name": "World of Warcraft",
+    "shortcut": "World of Warcraft.lnk",
+    "paths": [
+      "%USERPROFILE%\\Documents\\World of Warcraft\\WTF"
+    ],
+    "exclude_dirs": [
+      "debug",
+      "logs",
+      "log",
+      "cache",
+      "temp",
+      "tmp",
+      "crashdumps"
+    ],
+    "exclude": [
+      "**/*.log",
+      "**/*.tmp",
+      "**/*.dmp",
+      "**/*.pdb",
+      "**/*.bak"
+    ]
+  },
+  {
+    "key": "ffxiv",
+    "name": "Final Fantasy XIV",
+    "shortcut": "Final Fantasy XIV.lnk",
+    "paths": [
+      "%USERPROFILE%\\Documents\\My Games\\FINAL FANTASY XIV - A Realm Reborn"
+    ],
+    "exclude_dirs": [
+      "debug",
+      "logs",
+      "log",
+      "cache",
+      "temp",
+      "tmp",
+      "crashdumps"
+    ],
+    "exclude": [
+      "**/*.log",
+      "**/*.tmp",
+      "**/*.dmp",
+      "**/*.pdb",
+      "**/*.bak"
+    ]
+  },
+  {
+    "key": "sekiro",
+    "name": "Sekiro: Shadows Die Twice",
+    "shortcut": "Sekiro.lnk",
+    "paths": [
+      "%APPDATA%\\Sekiro"
+    ],
+    "extensions": [
+      ".sl2"
+    ]
+  },
+  {
+    "key": "dark_souls_remastered",
+    "name": "DARK SOULS: REMASTERED",
+    "shortcut": "Dark Souls Remastered.lnk",
+    "paths": [
+      "%USERPROFILE%\\Documents\\NBGI\\DARK SOULS REMASTERED"
+    ],
+    "extensions": [
+      ".sl2"
+    ]
+  },
+  {
+    "key": "armored_core_6",
+    "name": "ARMORED CORE VI",
+    "shortcut": "Armored Core VI.lnk",
+    "paths": [
+      "%APPDATA%\\ArmoredCore6"
+    ],
+    "extensions": [
+      ".sl2"
+    ]
+  },
+  {
+    "key": "monster_hunter_world",
+    "name": "Monster Hunter: World",
+    "shortcut": "Monster Hunter World.lnk",
+    "paths": [
+      "%USERPROFILE%\\Saved Games\\CAPCOM\\MONSTER HUNTER WORLD"
+    ],
+    "include": [
+      "**/*"
+    ]
+  },
+  {
+    "key": "monster_hunter_rise",
+    "name": "Monster Hunter Rise",
+    "shortcut": "Monster Hunter Rise.lnk",
+    "paths": [
+      "%LOCALAPPDATA%\\Nihonbashi\\Saved\\SaveGames"
+    ],
+    "extensions": [
+      ".sav"
+    ]
+  },
+  {
+    "key": "monster_hunter_wilds",
+    "name": "Monster Hunter Wilds",
+    "shortcut": "Monster Hunter Wilds.lnk",
+    "paths": [
+      "%LOCALAPPDATA%\\MHWilds\\Saved\\SaveGames"
+    ],
+    "extensions": [
+      ".sav"
+    ]
+  },
+  {
+    "key": "resident_evil_2",
+    "name": "Resident Evil 2",
+    "shortcut": "Resident Evil 2.lnk",
+    "paths": [
+      "%LOCALAPPDATA%\\CAPCOM\\RE2"
+    ],
+    "extensions": [
+      ".sav",
+      ".dat"
+    ]
+  },
+  {
+    "key": "resident_evil_4",
+    "name": "Resident Evil 4",
+    "shortcut": "Resident Evil 4.lnk",
+    "paths": [
+      "%LOCALAPPDATA%\\CAPCOM\\RE4"
+    ],
+    "extensions": [
+      ".sav",
+      ".dat"
+    ]
+  },
+  {
+    "key": "resident_evil_village",
+    "name": "Resident Evil Village",
+    "shortcut": "Resident Evil Village.lnk",
+    "paths": [
+      "%LOCALAPPDATA%\\CAPCOM\\RE Village"
+    ],
+    "extensions": [
+      ".sav",
+      ".dat"
+    ]
+  },
+  {
+    "key": "resident_evil_7",
+    "name": "Resident Evil 7",
+    "shortcut": "Resident Evil 7.lnk",
+    "paths": [
+      "%LOCALAPPDATA%\\CAPCOM\\RESIDENT EVIL 7 biohazard"
+    ],
+    "extensions": [
+      ".sav",
+      ".dat"
+    ]
+  },
+  {
+    "key": "dead_space_remake",
+    "name": "Dead Space",
+    "shortcut": "Dead Space.lnk",
+    "paths": [
+      "%LOCALAPPDATA%\\EA Games\\Dead Space\\Settings"
+    ],
+    "exclude_dirs": [
+      "debug",
+      "logs",
+      "log",
+      "cache",
+      "temp",
+      "tmp",
+      "crashdumps"
+    ],
+    "exclude": [
+      "**/*.log",
+      "**/*.tmp",
+      "**/*.dmp",
+      "**/*.pdb",
+      "**/*.bak"
+    ]
+  },
+  {
+    "key": "alien_isolation",
+    "name": "Alien: Isolation",
+    "shortcut": "Alien Isolation.lnk",
+    "paths": [
+      "%APPDATA%\\AlienIsolation"
+    ],
+    "exclude_dirs": [
+      "debug",
+      "logs",
+      "log",
+      "cache",
+      "temp",
+      "tmp",
+      "crashdumps"
+    ],
+    "exclude": [
+      "**/*.log",
+      "**/*.tmp",
+      "**/*.dmp",
+      "**/*.pdb",
+      "**/*.bak"
+    ]
+  },
+  {
+    "key": "soma",
+    "name": "SOMA",
+    "shortcut": "SOMA.lnk",
+    "paths": [
+      "%USERPROFILE%\\Documents\\My Games\\Soma\\Main"
+    ],
+    "exclude_dirs": [
+      "debug",
+      "logs",
+      "log",
+      "cache",
+      "temp",
+      "tmp",
+      "crashdumps"
+    ],
+    "exclude": [
+      "**/*.log",
+      "**/*.tmp",
+      "**/*.dmp",
+      "**/*.pdb",
+      "**/*.bak"
+    ]
+  },
+  {
+    "key": "outlast",
+    "name": "Outlast",
+    "shortcut": "Outlast.lnk",
+    "paths": [
+      "%USERPROFILE%\\Documents\\My Games\\Outlast\\OLGame\\SaveData"
+    ],
+    "exclude_dirs": [
+      "debug",
+      "logs",
+      "log",
+      "cache",
+      "temp",
+      "tmp",
+      "crashdumps"
+    ],
+    "exclude": [
+      "**/*.log",
+      "**/*.tmp",
+      "**/*.dmp",
+      "**/*.pdb",
+      "**/*.bak"
+    ]
+  },
+  {
+    "key": "phasmophobia",
+    "name": "Phasmophobia",
+    "shortcut": "Phasmophobia.lnk",
+    "paths": [
+      "%APPDATA%\\..\\LocalLow\\Kinetic Games\\Phasmophobia"
+    ],
+    "include": [
+      "**/*"
+    ]
+  },
+  {
+    "key": "lethal_company",
+    "name": "Lethal Company",
+    "shortcut": "Lethal Company.lnk",
+    "paths": [
+      "%APPDATA%\\..\\LocalLow\\ZeekerssRBLX\\Lethal Company"
+    ],
+    "include": [
+      "**/*"
+    ]
+  },
+  {
+    "key": "valheim",
+    "name": "Valheim",
+    "shortcut": "Valheim.lnk",
+    "paths": [
+      "%APPDATA%\\..\\LocalLow\\IronGate\\Valheim\\characters"
+    ],
+    "extensions": [
+      ".fch",
+      ".db",
+      ".fwl"
+    ]
+  },
+  {
+    "key": "vrising",
+    "name": "V Rising",
+    "shortcut": "V Rising.lnk",
+    "paths": [
+      "%USERPROFILE%\\AppData\\LocalLow\\Stunlock Studios\\VRising"
+    ],
+    "exclude_dirs": [
+      "debug",
+      "logs",
+      "log",
+      "cache",
+      "temp",
+      "tmp",
+      "crashdumps"
+    ],
+    "exclude": [
+      "**/*.log",
+      "**/*.tmp",
+      "**/*.dmp",
+      "**/*.pdb",
+      "**/*.bak"
+    ]
+  },
+  {
+    "key": "ark_asa",
+    "name": "ARK: Survival Ascended",
+    "shortcut": "ARK Survival Ascended.lnk",
+    "paths": [
+      "%LOCALAPPDATA%\\ARK Ascended\\Saved\\SavedArks"
+    ],
+    "exclude_dirs": [
+      "debug",
+      "logs",
+      "log",
+      "cache",
+      "temp",
+      "tmp",
+      "crashdumps"
+    ],
+    "exclude": [
+      "**/*.log",
+      "**/*.tmp",
+      "**/*.dmp",
+      "**/*.pdb",
+      "**/*.bak"
+    ]
+  },
+  {
+    "key": "palworld",
+    "name": "Palworld",
+    "shortcut": "Palworld.lnk",
+    "paths": [
+      "%LOCALAPPDATA%\\Pal\\Saved\\SaveGames"
+    ],
+    "extensions": [
+      ".sav"
+    ]
+  },
+  {
+    "key": "satisfactory",
+    "name": "Satisfactory",
+    "shortcut": "Satisfactory.lnk",
+    "paths": [
+      "%LOCALAPPDATA%\\FactoryGame\\Saved\\SaveGames"
+    ],
+    "extensions": [
+      ".sav"
+    ]
+  },
+  {
+    "key": "dyson_sphere",
+    "name": "Dyson Sphere Program",
+    "shortcut": "Dyson Sphere Program.lnk",
+    "paths": [
+      "%USERPROFILE%\\Documents\\Dyson Sphere Program\\Save"
+    ],
+    "exclude_dirs": [
+      "debug",
+      "logs",
+      "log",
+      "cache",
+      "temp",
+      "tmp",
+      "crashdumps"
+    ],
+    "exclude": [
+      "**/*.log",
+      "**/*.tmp",
+      "**/*.dmp",
+      "**/*.pdb",
+      "**/*.bak"
+    ]
+  },
+  {
+    "key": "against_the_storm",
+    "name": "Against the Storm",
+    "shortcut": "Against the Storm.lnk",
+    "paths": [
+      "%USERPROFILE%\\AppData\\LocalLow\\Eremite Games\\Against the Storm"
+    ],
+    "exclude_dirs": [
+      "debug",
+      "logs",
+      "log",
+      "cache",
+      "temp",
+      "tmp",
+      "crashdumps"
+    ],
+    "exclude": [
+      "**/*.log",
+      "**/*.tmp",
+      "**/*.dmp",
+      "**/*.pdb",
+      "**/*.bak"
+    ]
+  },
+  {
+    "key": "frostpunk",
+    "name": "Frostpunk",
+    "shortcut": "Frostpunk.lnk",
+    "paths": [
+      "%USERPROFILE%\\Documents\\Frostpunk"
+    ],
+    "exclude_dirs": [
+      "debug",
+      "logs",
+      "log",
+      "cache",
+      "temp",
+      "tmp",
+      "crashdumps"
+    ],
+    "exclude": [
+      "**/*.log",
+      "**/*.tmp",
+      "**/*.dmp",
+      "**/*.pdb",
+      "**/*.bak"
+    ]
+  },
+  {
+    "key": "frostpunk_2",
+    "name": "Frostpunk 2",
+    "shortcut": "Frostpunk 2.lnk",
+    "paths": [
+      "%USERPROFILE%\\Documents\\Frostpunk2"
+    ],
+    "exclude_dirs": [
+      "debug",
+      "logs",
+      "log",
+      "cache",
+      "temp",
+      "tmp",
+      "crashdumps"
+    ],
+    "exclude": [
+      "**/*.log",
+      "**/*.tmp",
+      "**/*.dmp",
+      "**/*.pdb",
+      "**/*.bak"
+    ]
+  },
+  {
+    "key": "this_war_of_mine",
+    "name": "This War of Mine",
+    "shortcut": "This War of Mine.lnk",
+    "paths": [
+      "%USERPROFILE%\\Documents\\This War of Mine"
+    ],
+    "exclude_dirs": [
+      "debug",
+      "logs",
+      "log",
+      "cache",
+      "temp",
+      "tmp",
+      "crashdumps"
+    ],
+    "exclude": [
+      "**/*.log",
+      "**/*.tmp",
+      "**/*.dmp",
+      "**/*.pdb",
+      "**/*.bak"
+    ]
+  },
+  {
+    "key": "undertale",
+    "name": "Undertale",
+    "shortcut": "Undertale.lnk",
+    "paths": [
+      "%LOCALAPPDATA%\\UNDERTALE"
+    ],
+    "exclude_dirs": [
+      "debug",
+      "logs",
+      "log",
+      "cache",
+      "temp",
+      "tmp",
+      "crashdumps"
+    ],
+    "exclude": [
+      "**/*.log",
+      "**/*.tmp",
+      "**/*.dmp",
+      "**/*.pdb",
+      "**/*.bak"
+    ]
+  },
+  {
+    "key": "deltarune",
+    "name": "Deltarune",
+    "shortcut": "Deltarune.lnk",
+    "paths": [
+      "%LOCALAPPDATA%\\DELTARUNE"
+    ],
+    "exclude_dirs": [
+      "debug",
+      "logs",
+      "log",
+      "cache",
+      "temp",
+      "tmp",
+      "crashdumps"
+    ],
+    "exclude": [
+      "**/*.log",
+      "**/*.tmp",
+      "**/*.dmp",
+      "**/*.pdb",
+      "**/*.bak"
+    ]
+  },
+  {
+    "key": "omori",
+    "name": "OMORI",
+    "shortcut": "OMORI.lnk",
+    "paths": [
+      "%LOCALAPPDATA%\\OMORI"
+    ],
+    "exclude_dirs": [
+      "debug",
+      "logs",
+      "log",
+      "cache",
+      "temp",
+      "tmp",
+      "crashdumps"
+    ],
+    "exclude": [
+      "**/*.log",
+      "**/*.tmp",
+      "**/*.dmp",
+      "**/*.pdb",
+      "**/*.bak"
+    ]
+  },
+  {
+    "key": "persona_5_royal",
+    "name": "Persona 5 Royal",
+    "shortcut": "Persona 5 Royal.lnk",
+    "paths": [
+      "%APPDATA%\\SEGA\\P5R"
+    ],
+    "exclude_dirs": [
+      "debug",
+      "logs",
+      "log",
+      "cache",
+      "temp",
+      "tmp",
+      "crashdumps"
+    ],
+    "exclude": [
+      "**/*.log",
+      "**/*.tmp",
+      "**/*.dmp",
+      "**/*.pdb",
+      "**/*.bak"
+    ]
+  },
+  {
+    "key": "yakuza_0",
+    "name": "Yakuza 0",
+    "shortcut": "Yakuza 0.lnk",
+    "paths": [
+      "%APPDATA%\\SEGA\\Yakuza0"
+    ],
+    "exclude_dirs": [
+      "debug",
+      "logs",
+      "log",
+      "cache",
+      "temp",
+      "tmp",
+      "crashdumps"
+    ],
+    "exclude": [
+      "**/*.log",
+      "**/*.tmp",
+      "**/*.dmp",
+      "**/*.pdb",
+      "**/*.bak"
+    ]
+  },
+  {
+    "key": "devil_may_cry_5",
+    "name": "Devil May Cry 5",
+    "shortcut": "Devil May Cry 5.lnk",
+    "paths": [
+      "%LOCALAPPDATA%\\CAPCOM\\DEVILMAYCRY5"
+    ],
+    "exclude_dirs": [
+      "debug",
+      "logs",
+      "log",
+      "cache",
+      "temp",
+      "tmp",
+      "crashdumps"
+    ],
+    "exclude": [
+      "**/*.log",
+      "**/*.tmp",
+      "**/*.dmp",
+      "**/*.pdb",
+      "**/*.bak"
+    ]
+  },
+  {
+    "key": "metal_gear_solid_v",
+    "name": "METAL GEAR SOLID V",
+    "shortcut": "MGSV.lnk",
+    "paths": [
+      "%USERPROFILE%\\Documents\\MGSV\\0"
+    ],
+    "exclude_dirs": [
+      "debug",
+      "logs",
+      "log",
+      "cache",
+      "temp",
+      "tmp",
+      "crashdumps"
+    ],
+    "exclude": [
+      "**/*.log",
+      "**/*.tmp",
+      "**/*.dmp",
+      "**/*.pdb",
+      "**/*.bak"
+    ]
+  },
+  {
+    "key": "death_stranding",
+    "name": "Death Stranding",
+    "shortcut": "Death Stranding.lnk",
+    "paths": [
+      "%LOCALAPPDATA%\\KojimaProductions\\DeathStranding"
+    ],
+    "exclude_dirs": [
+      "debug",
+      "logs",
+      "log",
+      "cache",
+      "temp",
+      "tmp",
+      "crashdumps"
+    ],
+    "exclude": [
+      "**/*.log",
+      "**/*.tmp",
+      "**/*.dmp",
+      "**/*.pdb",
+      "**/*.bak"
+    ]
+  },
+  {
+    "key": "horizon_zero_dawn",
+    "name": "Horizon Zero Dawn",
+    "shortcut": "Horizon Zero Dawn.lnk",
+    "paths": [
+      "%USERPROFILE%\\Documents\\Horizon Zero Dawn\\Saved Game"
+    ],
+    "exclude_dirs": [
+      "debug",
+      "logs",
+      "log",
+      "cache",
+      "temp",
+      "tmp",
+      "crashdumps"
+    ],
+    "exclude": [
+      "**/*.log",
+      "**/*.tmp",
+      "**/*.dmp",
+      "**/*.pdb",
+      "**/*.bak"
+    ]
+  },
+  {
+    "key": "horizon_forbidden_west",
+    "name": "Horizon Forbidden West",
+    "shortcut": "Horizon Forbidden West.lnk",
+    "paths": [
+      "%USERPROFILE%\\Documents\\Horizon Forbidden West Complete Edition\\Saved Game"
+    ],
+    "exclude_dirs": [
+      "debug",
+      "logs",
+      "log",
+      "cache",
+      "temp",
+      "tmp",
+      "crashdumps"
+    ],
+    "exclude": [
+      "**/*.log",
+      "**/*.tmp",
+      "**/*.dmp",
+      "**/*.pdb",
+      "**/*.bak"
+    ]
+  },
+  {
+    "key": "god_of_war",
+    "name": "God of War",
+    "shortcut": "God of War.lnk",
+    "paths": [
+      "%USERPROFILE%\\Saved Games\\God of War"
+    ],
+    "include": [
+      "**/*"
+    ]
+  },
+  {
+    "key": "god_of_war_ragnarok",
+    "name": "God of War Ragnarok",
+    "shortcut": "God of War Ragnarok.lnk",
+    "paths": [
+      "%USERPROFILE%\\Saved Games\\God of War Ragnarök"
+    ],
+    "include": [
+      "**/*"
+    ]
+  },
+  {
+    "key": "spiderman_remastered",
+    "name": "Marvel's Spider-Man Remastered",
+    "shortcut": "Spider-Man.lnk",
+    "paths": [
+      "%USERPROFILE%\\Documents\\Marvel's Spider-Man Remastered\\SaveGames"
+    ],
+    "extensions": [
+      ".sav"
+    ]
+  },
+  {
+    "key": "spiderman_2",
+    "name": "Marvel's Spider-Man 2",
+    "shortcut": "Spider-Man 2.lnk",
+    "paths": [
+      "%USERPROFILE%\\Documents\\Marvel's Spider-Man 2\\SaveGames"
+    ],
+    "extensions": [
+      ".sav"
+    ]
+  },
+  {
+    "key": "tlou_part1",
+    "name": "The Last of Us Part I",
+    "shortcut": "The Last of Us Part I.lnk",
+    "paths": [
+      "%USERPROFILE%\\Saved Games\\The Last of Us Part I"
+    ],
+    "include": [
+      "**/*"
+    ]
+  },
+  {
+    "key": "ghost_of_tsushima",
+    "name": "Ghost of Tsushima DIRECTOR'S CUT",
+    "shortcut": "Ghost of Tsushima.lnk",
+    "paths": [
+      "%USERPROFILE%\\Documents\\Ghost of Tsushima DIRECTOR'S CUT\\SaveGames"
+    ],
+    "extensions": [
+      ".sav"
+    ]
+  },
+  {
+    "key": "days_gone",
+    "name": "Days Gone",
+    "shortcut": "Days Gone.lnk",
+    "paths": [
+      "%LOCALAPPDATA%\\BendGame\\Saved\\SaveGames"
+    ],
+    "extensions": [
+      ".sav"
+    ]
+  },
+  {
+    "key": "detroit",
+    "name": "Detroit: Become Human",
+    "shortcut": "Detroit Become Human.lnk",
+    "paths": [
+      "%USERPROFILE%\\Documents\\Quantic Dream\\Detroit Become Human\\SaveGames"
+    ],
+    "extensions": [
+      ".sav"
+    ]
+  },
+  {
+    "key": "control",
+    "name": "Control",
+    "shortcut": "Control.lnk",
+    "paths": [
+      "%LOCALAPPDATA%\\Remedy\\Control\\Saved\\SaveGames"
+    ],
+    "extensions": [
+      ".sav"
+    ]
+  },
+  {
+    "key": "alan_wake_2",
+    "name": "Alan Wake 2",
+    "shortcut": "Alan Wake 2.lnk",
+    "paths": [
+      "%LOCALAPPDATA%\\Remedy\\AlanWake2\\Saved\\SaveGames"
+    ],
+    "extensions": [
+      ".sav"
+    ]
+  },
+  {
+    "key": "l4d2",
+    "name": "Left 4 Dead 2",
+    "shortcut": "Left 4 Dead 2.lnk",
+    "paths": [
+      "%USERPROFILE%\\Documents\\Left 4 Dead 2"
+    ],
+    "exclude_dirs": [
+      "debug",
+      "logs",
+      "log",
+      "cache",
+      "temp",
+      "tmp",
+      "crashdumps"
+    ],
+    "exclude": [
+      "**/*.log",
+      "**/*.tmp",
+      "**/*.dmp",
+      "**/*.pdb",
+      "**/*.bak"
+    ]
+  },
+  {
+    "key": "portal_2",
+    "name": "Portal 2",
+    "shortcut": "Portal 2.lnk",
+    "paths": [
+      "%USERPROFILE%\\Documents\\Portal 2"
+    ],
+    "exclude_dirs": [
+      "debug",
+      "logs",
+      "log",
+      "cache",
+      "temp",
+      "tmp",
+      "crashdumps"
+    ],
+    "exclude": [
+      "**/*.log",
+      "**/*.tmp",
+      "**/*.dmp",
+      "**/*.pdb",
+      "**/*.bak"
+    ]
+  },
+  {
+    "key": "garry_mod",
+    "name": "Garry's Mod",
+    "shortcut": "Garrys Mod.lnk",
+    "paths": [
+      "%USERPROFILE%\\Documents\\garrysmod"
+    ],
+    "exclude_dirs": [
+      "debug",
+      "logs",
+      "log",
+      "cache",
+      "temp",
+      "tmp",
+      "crashdumps"
+    ],
+    "exclude": [
+      "**/*.log",
+      "**/*.tmp",
+      "**/*.dmp",
+      "**/*.pdb",
+      "**/*.bak"
+    ]
+  },
+  {
+    "key": "rust",
+    "name": "Rust",
+    "shortcut": "Rust.lnk",
+    "paths": [
+      "%LOCALAPPDATA%\\Rust\\cfg"
+    ],
+    "exclude_dirs": [
+      "debug",
+      "logs",
+      "log",
+      "cache",
+      "temp",
+      "tmp",
+      "crashdumps"
+    ],
+    "exclude": [
+      "**/*.log",
+      "**/*.tmp",
+      "**/*.dmp",
+      "**/*.pdb",
+      "**/*.bak"
+    ]
+  },
+  {
+    "key": "dayz",
+    "name": "DayZ",
+    "shortcut": "DayZ.lnk",
+    "paths": [
+      "%USERPROFILE%\\Documents\\DayZ"
+    ],
+    "exclude_dirs": [
+      "debug",
+      "Logs",
+      "logs"
+    ],
+    "exclude": [
+      "**/*.log",
+      "**/*.exe",
+      "**/*.tmp",
+      "**/*.dmp"
+    ]
+  },
+  {
+    "key": "the_forest",
+    "name": "The Forest",
+    "shortcut": "The Forest.lnk",
+    "paths": [
+      "%USERPROFILE%\\AppData\\LocalLow\\SKS\\TheForest"
+    ],
+    "exclude_dirs": [
+      "debug",
+      "logs",
+      "log",
+      "cache",
+      "temp",
+      "tmp",
+      "crashdumps"
+    ],
+    "exclude": [
+      "**/*.log",
+      "**/*.tmp",
+      "**/*.dmp",
+      "**/*.pdb",
+      "**/*.bak"
+    ]
+  },
+  {
+    "key": "sons_of_the_forest",
+    "name": "Sons Of The Forest",
+    "shortcut": "Sons Of The Forest.lnk",
+    "paths": [
+      "%USERPROFILE%\\AppData\\LocalLow\\Endnight\\SonsOfTheForest"
+    ],
+    "exclude_dirs": [
+      "debug",
+      "logs",
+      "log",
+      "cache",
+      "temp",
+      "tmp",
+      "crashdumps"
+    ],
+    "exclude": [
+      "**/*.log",
+      "**/*.tmp",
+      "**/*.dmp",
+      "**/*.pdb",
+      "**/*.bak"
+    ]
+  },
+  {
+    "key": "green_hell",
+    "name": "Green Hell",
+    "shortcut": "Green Hell.lnk",
+    "paths": [
+      "%LOCALAPPDATA%\\GH\\Saved\\SaveGames"
+    ],
+    "extensions": [
+      ".sav"
+    ]
+  },
+  {
+    "key": "raft",
+    "name": "Raft",
+    "shortcut": "Raft.lnk",
+    "paths": [
+      "%USERPROFILE%\\AppData\\LocalLow\\Redbeet Interactive\\Raft"
+    ],
+    "exclude_dirs": [
+      "debug",
+      "logs",
+      "log",
+      "cache",
+      "temp",
+      "tmp",
+      "crashdumps"
+    ],
+    "exclude": [
+      "**/*.log",
+      "**/*.tmp",
+      "**/*.dmp",
+      "**/*.pdb",
+      "**/*.bak"
+    ]
+  },
+  {
+    "key": "grounded",
+    "name": "Grounded",
+    "shortcut": "Grounded.lnk",
+    "paths": [
+      "%LOCALAPPDATA%\\Maine\\Saved\\SaveGames"
+    ],
+    "extensions": [
+      ".sav"
+    ]
+  },
+  {
+    "key": "deep_rock_galactic",
+    "name": "Deep Rock Galactic",
+    "shortcut": "Deep Rock Galactic.lnk",
+    "paths": [
+      "%LOCALAPPDATA%\\FSD\\Saved\\SaveGames"
+    ],
+    "extensions": [
+      ".sav"
+    ]
+  },
+  {
+    "key": "helldivers_2",
+    "name": "HELLDIVERS 2",
+    "shortcut": "Helldivers 2.lnk",
+    "paths": [
+      "%APPDATA%\\Arrowhead\\Helldivers2"
+    ],
+    "include": [
+      "**/*"
+    ]
+  },
+  {
+    "key": "warhammer_40k_darktide",
+    "name": "Warhammer 40,000: Darktide",
+    "shortcut": "Darktide.lnk",
+    "paths": [
+      "%APPDATA%\\Fatshark\\Darktide"
+    ],
+    "exclude_dirs": [
+      "debug",
+      "logs",
+      "log",
+      "cache",
+      "temp",
+      "tmp",
+      "crashdumps"
+    ],
+    "exclude": [
+      "**/*.log",
+      "**/*.tmp",
+      "**/*.dmp",
+      "**/*.pdb",
+      "**/*.bak"
+    ]
+  },
+  {
+    "key": "payday_2",
+    "name": "PAYDAY 2",
+    "shortcut": "PAYDAY 2.lnk",
+    "paths": [
+      "%LOCALAPPDATA%\\PAYDAY 2\\saves"
+    ],
+    "exclude_dirs": [
+      "debug",
+      "logs",
+      "log",
+      "cache",
+      "temp",
+      "tmp",
+      "crashdumps"
+    ],
+    "exclude": [
+      "**/*.log",
+      "**/*.tmp",
+      "**/*.dmp",
+      "**/*.pdb",
+      "**/*.bak"
+    ]
+  },
+  {
+    "key": "hunt_showdown",
+    "name": "Hunt: Showdown",
+    "shortcut": "Hunt Showdown.lnk",
+    "paths": [
+      "%USERPROFILE%\\AppData\\Local\\Hunt Showdown"
+    ],
+    "exclude_dirs": [
+      "debug",
+      "logs",
+      "log",
+      "cache",
+      "temp",
+      "tmp",
+      "crashdumps"
+    ],
+    "exclude": [
+      "**/*.log",
+      "**/*.tmp",
+      "**/*.dmp",
+      "**/*.pdb",
+      "**/*.bak"
+    ]
+  },
+  {
+    "key": "genshin_impact",
+    "name": "Genshin Impact",
+    "shortcut": "Genshin Impact.lnk",
+    "paths": [
+      "%USERPROFILE%\\AppData\\LocalLow\\miHoYo\\Genshin Impact"
+    ],
+    "exclude_dirs": [
+      "debug",
+      "logs",
+      "log",
+      "cache",
+      "temp",
+      "tmp",
+      "crashdumps"
+    ],
+    "exclude": [
+      "**/*.log",
+      "**/*.tmp",
+      "**/*.dmp",
+      "**/*.pdb",
+      "**/*.bak"
+    ]
+  },
+  {
+    "key": "honkai_star_rail",
+    "name": "Honkai: Star Rail",
+    "shortcut": "Honkai Star Rail.lnk",
+    "paths": [
+      "%USERPROFILE%\\AppData\\LocalLow\\miHoYo\\Star Rail"
+    ],
+    "exclude_dirs": [
+      "debug",
+      "logs",
+      "log",
+      "cache",
+      "temp",
+      "tmp",
+      "crashdumps"
+    ],
+    "exclude": [
+      "**/*.log",
+      "**/*.tmp",
+      "**/*.dmp",
+      "**/*.pdb",
+      "**/*.bak"
+    ]
+  },
+  {
+    "key": "wuthering_waves",
+    "name": "Wuthering Waves",
+    "shortcut": "Wuthering Waves.lnk",
+    "paths": [
+      "%LOCALAPPDATA%\\Wuthering Waves\\Saved\\SaveGames"
+    ],
+    "extensions": [
+      ".sav"
+    ]
+  },
+  {
+    "key": "zzz",
+    "name": "Zenless Zone Zero",
+    "shortcut": "Zenless Zone Zero.lnk",
+    "paths": [
+      "%USERPROFILE%\\AppData\\LocalLow\\miHoYo\\ZenlessZoneZero"
+    ],
+    "exclude_dirs": [
+      "debug",
+      "logs",
+      "log",
+      "cache",
+      "temp",
+      "tmp",
+      "crashdumps"
+    ],
+    "exclude": [
+      "**/*.log",
+      "**/*.tmp",
+      "**/*.dmp",
+      "**/*.pdb",
+      "**/*.bak"
+    ]
+  },
+  {
+    "key": "diablo_4",
+    "name": "Diablo IV",
+    "shortcut": "Diablo IV.lnk",
+    "paths": [
+      "%USERPROFILE%\\Documents\\Diablo IV\\Saves"
+    ],
+    "include": [
+      "**/*"
+    ]
+  },
+  {
+    "key": "diablo_2_r",
+    "name": "Diablo II: Resurrected",
+    "shortcut": "Diablo II Resurrected.lnk",
+    "paths": [
+      "%USERPROFILE%\\Saved Games\\Diablo II Resurrected"
+    ],
+    "extensions": [
+      ".d2s",
+      ".key",
+      ".ma0",
+      ".ma1",
+      ".ma2",
+      ".ma3",
+      ".ma4",
+      ".ma5",
+      ".ma6",
+      ".ma7",
+      ".ma8",
+      ".ma9"
+    ]
+  },
+  {
+    "key": "path_of_exile",
+    "name": "Path of Exile",
+    "shortcut": "Path of Exile.lnk",
+    "paths": [
+      "%USERPROFILE%\\Documents\\My Games\\Path of Exile"
+    ],
+    "include": [
+      "**/*"
+    ]
+  },
+  {
+    "key": "path_of_exile_2",
+    "name": "Path of Exile 2",
+    "shortcut": "Path of Exile 2.lnk",
+    "paths": [
+      "%USERPROFILE%\\Documents\\My Games\\Path of Exile 2"
+    ],
+    "include": [
+      "**/*"
+    ]
+  },
+  {
+    "key": "last_epoch",
+    "name": "Last Epoch",
+    "shortcut": "Last Epoch.lnk",
+    "paths": [
+      "%USERPROFILE%\\AppData\\LocalLow\\Eleventh Hour Games\\Last Epoch"
+    ],
+    "exclude_dirs": [
+      "debug",
+      "logs",
+      "log",
+      "cache",
+      "temp",
+      "tmp",
+      "crashdumps"
+    ],
+    "exclude": [
+      "**/*.log",
+      "**/*.tmp",
+      "**/*.dmp",
+      "**/*.pdb",
+      "**/*.bak"
+    ]
+  },
+  {
+    "key": "grim_dawn",
+    "name": "Grim Dawn",
+    "shortcut": "Grim Dawn.lnk",
+    "paths": [
+      "%USERPROFILE%\\Documents\\My Games\\Grim Dawn\\save"
+    ],
+    "exclude_dirs": [
+      "debug",
+      "logs",
+      "log",
+      "cache",
+      "temp",
+      "tmp",
+      "crashdumps"
+    ],
+    "exclude": [
+      "**/*.log",
+      "**/*.tmp",
+      "**/*.dmp",
+      "**/*.pdb",
+      "**/*.bak"
+    ]
+  },
+  {
+    "key": "among_us",
+    "name": "Among Us",
+    "shortcut": "Among Us.lnk",
+    "paths": [
+      "%APPDATA%\\\\..\\LocalLow\\\\Innersloth\\\\Among Us"
+    ],
+    "include": [
+      "**/*"
+    ]
+  },
+  {
+    "key": "starfield",
+    "name": "Starfield",
+    "shortcut": "Starfield.lnk",
+    "paths": [
+      "%USERPROFILE%\\\\Documents\\\\My Games\\\\Starfield\\\\Saves"
+    ],
+    "extensions": [
+      ".sfs"
+    ]
+  },
+  {
+    "key": "black_myth_wukong",
+    "name": "Black Myth: Wukong",
+    "shortcut": "Black Myth Wukong.lnk",
+    "paths": [
+      "%USERPROFILE%\\\\AppData\\\\Local\\\\b1\\\\Saved\\\\SaveGames"
+    ],
+    "extensions": [
+      ".sav"
+    ],
+    "exclude_dirs": [
+      "debug",
+      "logs",
+      "cache",
+      "temp"
+    ]
+  },
+  {
+    "key": "stalker_2",
+    "name": "S.T.A.L.K.E.R. 2: Heart of Chornobyl",
+    "shortcut": "S.T.A.L.K.E.R. 2 Heart of Chornobyl.lnk",
+    "paths": [
+      "%LOCALAPPDATA%\\\\Stalker2\\\\Saved\\\\SaveGames"
+    ],
+    "extensions": [
+      ".sav"
+    ]
+  },
+  {
+    "key": "kingdom_come_2",
+    "name": "Kingdom Come: Deliverance II",
+    "shortcut": "Kingdom Come Deliverance II.lnk",
+    "paths": [
+      "%USERPROFILE%\\\\Saved Games\\\\kingdomcome2",
+      "%USERPROFILE%\\Documents\\KingdomCome2\\Saves"
+    ],
+    "extensions": [
+      ".whs"
+    ]
+  }
+]
